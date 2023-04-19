@@ -1,0 +1,120 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+.wrapper {
+    align-items: stretch;
+    height: 100vh;
+    display: flex;
+    max-width: 900px; /* Set a max-width for the content */
+    margin: 0 auto; /* Center the container horizontally */
+    border: 3px solid #ee95f0;
+    background-color: #fff5bc;
+}
+#btn-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+form {
+    padding: 200px;
+    justify-content: center;
+}
+  
+#logo {
+    width: 150px;
+}
+
+#sidebar {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+.col-sm, .col-md {
+    margin-top: 50px;
+    background-color: #bb77ff;
+    height: 30vh;
+}
+
+.btn {
+    width: 200px;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    background: #c9aae8;
+    color: #fff;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+#sidebar .sidebar-header {
+    padding: 10px;
+    background: #c9aae8;
+    align-items: center;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.3em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #c9aae8;
+    background: #fff;
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: #7400e8;
+    color: #4b4c4d;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer li {
+    padding: 0 10px;
+    background-color: rgb(205, 205, 205);
+}
+
+.footer ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul a:hover {
+    opacity: 1;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}

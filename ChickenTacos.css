@@ -1,0 +1,165 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+.container {
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.pic{
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	flex: 1;
+	margin-bottom: 10px;
+}
+.aboutus{
+	background-color: #fff;
+	padding-left: 50px;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.aboutus ol li{
+	text-align: left;
+}
+.pic img{
+	height: 250px;
+	width: 200px;
+	text-align: center;
+	flex: 1;
+}
+form {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#input{
+	padding: 20px;
+}
+.sidebar {
+	position: fixed;
+	top: 80px; /* Adjust this value to position the sidebar vertically */
+	right: 0;
+	width: 200px;
+	background-color: #f0f0f0;
+	padding: 20px;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+#logo {
+	padding-top: 15px;
+    width: 150px;
+}
+html {
+	background-color: white;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid  #7400e8;
+    background-color: #fffded;
+}
+section {
+	width: 525px;
+	float: right;
+	padding: 20px 20px 20px 20px;
+	margin-right: 28px;
+}
+section p {
+	padding-bottom: .5em;
+}
+section ul {
+	padding: 0 0 .25em 1.25em;
+	list-style-type: circle;
+}
+section li {
+	padding-bottom: .35em;
+}
+aside{
+	background: #c9aae8;
+    color: #fff;
+    transition: all 0.3s;
+    text-align: center;
+	width: 180px;
+	height: 845px;
+	float: left;
+	margin:auto;
+}
+aside img {
+	padding-bottom: 1em;
+}
+footer {
+	background-color: #7400e8;
+	clear: both;
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+}
+.footer ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+.footer li {
+    padding: 0 10px;
+    background-color: rgb(205, 205, 205);
+}
+.footer ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.footer ul a:hover {
+    opacity: 1;
+}
+#comments{
+    border-radius: 4px;
+    margin-top: 2%;
+    background-color: rgb(2, 2, 2);
+    color:beige;
+    width: 150px;
+    height: 35px;
+    font-size: 13px;
+    margin-left: 85px;
+    border-color: beige;
+}
+#TtC{
+    border-radius: 4px;
+    margin-top: 2%;
+    background-color: rgb(2, 2, 2);
+    color:beige;
+    width: 200px;
+    height: 35px;
+    font-size: 13px;
+    margin-left: 10px;
+    border-color: beige;
+
+}
+#sidebar {
+    background: #c9aae8;
+    color: #fff;
+    transition: all 0.3s;
+    text-align: center;
+}
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 15px;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #c9aae8;
+    background: #fff;
+}

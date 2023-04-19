@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Website Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="home.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <img id="logo" src="reciperealm.png">
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu">Home</a>
+                </li>
+                <li>
+                    <a href="firstpage.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm col-md">
+                    <div class = "btn-group">
+                        <button type = "button" class = "btn btn-secondary dropdown-toggle" data-toggle = "dropdown">
+                            Choose Recipes
+                        </button><br>
+                        <ul class = "dropdown-menu" role = "menu">
+                        <li><a href = "#">First Recipe</a></li>
+                        <li><a href = "#">Second Recipe</a></li>
+                        <li><a href = "#">Third Recipe</a></li>
+                        </ul><br>
+                        
+                        <form id="input">
+                        <label id="mealTypeLabel" for="mealType"><b>Meal Type:</b></label>
+                        <select name="mealType" id="mealType">
+                            <option value="Breakfast"><b>Breakfast</b></option>
+                            <option value="Lunch"><b>Lunch</b></option>
+                            <option value="Dinner"><b>Dinner</b></option>
+                            <option value="Dessert"><b>Dessert</b></option>
+                        </select><br>
+                        <label id="CuisineLabel" for="cuisine"><b>Cuisine:</b></label>
+                        <select name="cuisine" id="cuisine">
+                            <option value="French"><b>French</b></option>
+                            <option value="Chinese"><b>Chinese</b></option>
+                            <option value="Japanese"><b>Japanese</b></option>
+                            <option value="Italian"><b>Italian</b></option>
+                            <option value="Spanish"><b>Spanish</b></option>
+                            <option value="Indian"><b>Indian</b></option>
+                            <option value="Mexican"><b>Mexican</b></option>
+                        </select><br>
+                        <label for="dishName"><b>Dish Name</b></label>
+                        <input type="text" name="dishName" id="dishName"><br>
+                        <button id="submitButton"  type="button">Submit</button>
+                        </form>
+                     </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div class="footer">
+        <footer>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Site Map</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="#">Social</a></li>
+                <li class="list-inline-item"><a href="#">Resources</a></li>
+            </ul>
+            <p class="copyright">&copy; Mili Khatri 2022</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

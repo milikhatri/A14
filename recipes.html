@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Recipe Real M</title>
+	<link rel="stylesheet" href="recipes.css">
+</head>
+
+<body>
+	<section>
+		<div class="form-container">
+			<form id="input">
+				<label id="mealTypeLabel" for="mealType"><b>Meal Type:</b></label>
+				<select name="mealType" id="mealType">
+					<option value="Breakfast"><b>Breakfast</b></option>
+					<option value="Lunch"><b>Lunch</b></option>
+					<option value="Dinner"><b>Dinner</b></option>
+					<option value="Dessert"><b>Dessert</b></option>
+				</select><br>
+				<label id="CuisineLabel" for="cuisine"><b>Cuisine:</b></label>
+				<select name="cuisine" id="cuisine">
+					<option value="French"><b>French</b></option>
+					<option value="Chinese"><b>Chinese</b></option>
+					<option value="Japanese"><b>Japanese</b></option>
+					<option value="Italian"><b>Italian</b></option>
+					<option value="Spanish"><b>Spanish</b></option>
+					<option value="Indian"><b>Indian</b></option>
+					<option value="Mexican"><b>Mexican</b></option>
+				</select><br>
+				<label for="dishName"><b>Dish Name</b></label>
+				<input type="text" name="dishName" id="dishName"><br>
+				<button id="submitButton" type="button">Submit</button>
+			</form>
+
+			<div class="dishes">
+				<a href="ChickenTacos.html"><button id="dishes" for="dishes"><b>Chicken Parmesan</b></button></a><br>
+				<p>Chicken parmesan, or chicken parmigiana (Italian: pollo alla parmigiana), is a dish that consists of
+					breaded chicken breast covered in tomato sauce and mozzarella, parmesan, or provolone cheese. A
+					quantity of ham or bacon is sometimes added.</p>
+				<img src="chickenparm.webp">
+			</div>
+
+			<div class="dishes2">
+				<a href="ChickenTacos.html"><button id="dishes2" for="dishes2"><b>Chicken Tacos</b></button></a><br>
+				<p>Chicken Tacos (Mexican pronunciation: [ˈTacos de Pollo']) is a traditional Mexican food consisting of
+					a small hand-sized corn- or wheat-based tortilla topped with a filling. The tortilla is then folded
+					around the filling and eaten by hand.</p>
+				<img src="taco.jpeg">
+			</div>
+		</div>
+	</section>
+	<aside id="sidebar">
+		<div class="sidebar-header">
+			<img id="logo" src="reciperealm.png">
+		</div>
+		<ul class="tab">
+			<li class="active">
+				<a href="firstpage.html">Home</a>
+			</li>
+			<li>
+				<a href="contact.html">Contact</a>
+			</li>
+		</ul>
+	</aside>
+	<footer class="footer">
+		<ul class="list-inline">
+			<li class="list-inline-item"><a href="#">Site Map</a></li>
+			<li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+			<li class="list-inline-item"><a href="#">Social</a></li>
+			<li class="list-inline-item"><a href="#">Resources</a></li>
+		</ul>
+		<p class="copyright">&copy; Mili Khatri 2023</p>
+	</footer>
+</body>
+
+</html>
